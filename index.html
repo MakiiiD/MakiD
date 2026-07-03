@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maki D | Jogos, Música e Redes Sociais</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome para os Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Configuração de cores personalizadas do Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neon-yellow': '#e2e61d',
+                        'neon-cyan': '#00f3ff',
+                        'dark-bg': '#0b0e14',
+                        'card-bg': '#131722',
+                        'card-border': '#232838',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-bg text-white min-height-screen font-sans antialiased selection:bg-neon-yellow selection:text-black">
+
+    <div class="max-w-5xl mx-auto px-4 py-8 md:py-12">
+        
+        <!-- HEADER -->
+        <header class="flex flex-col md:flex-row items-center gap-6 md:gap-8 mb-12 text-center md:text-left">
+            <div class="w-28 h-28 md:w-32 md:h-32 flex-shrink-0 drop-shadow-[0_0_15px_rgba(226,230,29,0.5)]">
+                <!-- Imagem do Logo indicada -->
+                <img src="Gemini_Generated_Image_pyrggspyrggspyrg.png" alt="Maki D Logo" class="w-full h-full object-contain">
+            </div>
+            <div>
+                <h1 class="text-4xl md:text-5xl font-extrabold tracking-wide uppercase">
+                    Maki D <span class="text-neon-yellow">Games</span>
+                </h1>
+                <p class="text-gray-300 text-lg md:text-xl mt-2 max-w-2xl font-medium">
+                    Maki D: A Minha Homepage Oficial. Jogos, Música e Redes Sociais, Tudo Num Só Lugar!
+                </p>
+            </div>
+        </header>
+
+        <!-- SEÇÕES PRINCIPAIS (JOGOS E MÚSICA) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            
+            <!-- CARD JOGOS -->
+            <div class="bg-card-bg rounded-2xl p-6 border border-card-border shadow-2xl flex flex-col justify-between">
+                <div>
+                    <h2 class="text-neon-yellow text-xl font-bold uppercase tracking-wider mb-4">Jogos (Games)</h2>
+                    <!-- Banner usando fatiamento da imagem original -->
+                    <div class="w-full h-40 rounded-lg border border-[#2d3446] mb-4 bg-cover bg-[position:15%_35%]" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('MakiD.png');"></div>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2 text-base text-gray-100"><span class="text-neon-yellow text-xl leading-none">•</span> Gameplays no YouTube & Twitch</li>
+                        <li class="flex items-center gap-2 text-base text-gray-100"><span class="text-neon-yellow text-xl leading-none">•</span> Notícias e Lançamentos</li>
+                        <li class="flex items-center gap-2 text-base text-gray-100"><span class="text-neon-yellow text-xl leading-none">•</span> Análises de Jogos</li>
+                    </ul>
+                </div>
+                <div class="flex gap-4 pt-4 border-t border-card-border text-gray-400">
+                    <a href="#" class="hover:text-white transition-colors flex items-center gap-1"><i class="fab fa-youtube text-lg"></i> /🔗</a>
+                    <a href="#" class="hover:text-white transition-colors flex items-center gap-1"><i class="fab fa-twitch text-lg"></i> /🔗</a>
+                    <a href="#" class="hover:text-white transition-colors flex items-center gap-1"><i class="fab fa-twitter text-lg"></i> /🔗</a>
+                    <a href="#" class="hover:text-white transition-colors flex items-center gap-1"><i class="fab fa-tiktok text-lg"></i> /🔗</a>
+                </div>
+            </div>
+
+            <!-- CARD MÚSICA -->
+            <div class="bg-card-bg rounded-2xl p-6 border border-card-border shadow-2xl flex flex-col justify-between">
+                <div>
+                    <h2 class="text-neon-yellow text-xl font-bold uppercase tracking-wider mb-4">Música (Music)</h2>
+                    <!-- Banner usando fatiamento da imagem original -->
+                    <div class="w-full h-40 rounded-lg border border-[#2d3446] mb-4 bg-cover bg-[position:85%_35%]" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('MakiD.png');"></div>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2 text-base text-gray-100"><span class="text-neon-yellow text-xl leading-none">•</span> DJ Sets Originais</li>
+                        <li class="flex items-center gap-2 text-base text-gray-100"><span class="text-neon-yellow text-xl leading-none">•</span> Produção de Batidas</li>
+                        <li class="flex items-center gap-2 text-base text-gray-100"><span class="text-neon-yellow text-xl leading-none">•</span> Playlists Curadas</li>
+                    </ul>
+                </div>
+                <div class="flex gap-4 pt-4 border-t border-card-border text-gray-400">
+                    <a href="#" class="hover:text-white transition-colors flex items-center gap-1"><i class="fab fa-youtube text-lg"></i> /M</a>
+                    <a href="#" class="hover:text-white transition-colors flex items-center gap-1"><i class="fab fa-soundcloud text-lg"></i> SU</a>
+                    <a href="#" class="hover:text-white transition-colors flex items-center gap-1"><i class="fab fa-spotify text-lg"></i> /🔗</a>
+                    <a href="#" class="hover:text-white transition-colors flex items-center gap-1"><i class="fab fa-instagram text-lg"></i> /🔗</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- REDES SOCIAIS -->
+        <h2 class="text-neon-yellow text-xl font-bold uppercase tracking-wider mb-6">Conecte-se & Mais</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
+            
+            <!-- Twitch -->
+            <a href="#" target="_blank" class="bg-[#6441a5] rounded-xl p-5 flex flex-col justify-between gap-4 transition-all hover:-translate-y-1 hover:shadow-[0_4px_20px_rgba(100,65,165,0.4)] group">
+                <div class="flex gap-4 items-start">
+                    <i class="fab fa-twitch text-4xl"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">Twitch</h3>
+                        <p class="text-xs text-purple-100 opacity-90 mt-1 leading-relaxed">Assista às lives de jogos e interaja diretamente no chat.</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors">Seguir/Inscrever</div>
+            </a>
+
+            <!-- YouTube -->
+            <a href="#" target="_blank" class="bg-[#c4302b] rounded-xl p-5 flex flex-col justify-between gap-4 transition-all hover:-translate-y-1 hover:shadow-[0_4px_20px_rgba(196,48,43,0.4)] group">
+                <div class="flex gap-4 items-start">
+                    <i class="fab fa-youtube text-4xl"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">YouTube</h3>
+                        <p class="text-xs text-red-100 opacity-90 mt-1 leading-relaxed">Vídeos novos, gameplays editadas e novidades do canal.</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors">Seguir/Inscrever</div>
+            </a>
+
+            <!-- TikTok -->
+            <a href="#" target="_blank" class="bg-black border border-zinc-8xl rounded-xl p-5 flex flex-col justify-between gap-4 transition-all hover:-translate-y-1 hover:shadow-[0_4px_20px_rgba(255,255,255,0.15)] group">
+                <div class="flex gap-4 items-start">
+                    <i class="fab fa-tiktok text-4xl"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">TikTok</h3>
+                        <p class="text-xs text-zinc-300 opacity-90 mt-1 leading-relaxed">Os melhores clipes, cortes rápidos e momentos engraçados.</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors">Seguir/Inscrever</div>
+            </a>
+
+            <!-- SoundCloud -->
+            <a href="#" target="_blank" class="bg-[#ff5500] rounded-xl p-5 flex flex-col justify-between gap-4 transition-all hover:-translate-y-1 hover:shadow-[0_4px_20px_rgba(255,85,0,0.4)] group">
+                <div class="flex gap-4 items-start">
+                    <i class="fab fa-soundcloud text-4xl"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">SoundCloud</h3>
+                        <p class="text-xs text-orange-100 opacity-90 mt-1 leading-relaxed">Ouça as tracks originais, remixes e sets de música.</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors">Seguir/Inscrever</div>
+            </a>
+
+            <!-- Instagram -->
+            <a href="#" target="_blank" class="bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] rounded-xl p-5 flex flex-col justify-between gap-4 transition-all hover:-translate-y-1 hover:shadow-[0_4px_20px_rgba(220,39,67,0.4)] group">
+                <div class="flex gap-4 items-start">
+                    <i class="fab fa-instagram text-4xl"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">Instagram</h3>
+                        <p class="text-xs text-pink-100 opacity-90 mt-1 leading-relaxed">Bastidores do canal, fotos cotidianas e avisos rápidos.</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors">Seguir/Inscrever</div>
+            </a>
+
+            <!-- Twitter -->
+            <a href="#" target="_blank" class="bg-[#1da1f2] rounded-xl p-5 flex flex-col justify-between gap-4 transition-all hover:-translate-y-1 hover:shadow-[0_4px_20px_rgba(29,161,242,0.4)] group">
+                <div class="flex gap-4 items-start">
+                    <i class="fab fa-twitter text-4xl"></i>
+                    <div>
+                        <h3 class="text-lg font-bold">Twitter</h3>
+                        <p class="text-xs text-blue-100 opacity-90 mt-1 leading-relaxed">Pensamentos diários, interações e atualizações em tempo real.</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors">Seguir/Inscrever</div>
+            </a>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="border-t border-zinc-800 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-400">
+            <p>&copy; Copyright - Todos os direitos reservados.</p>
+            <a href="#" class="flex items-center gap-2 text-white font-medium hover:text-neon-yellow transition-colors">
+                <img src="Gemini_Generated_Image_pyrggspyrggspyrg.png" alt="Mini Logo" class="w-6 h-6">
+                <span>MakiD.png</span>
+            </a>
+            <div class="flex gap-4 text-lg">
+                <a href="#" class="hover:text-neon-yellow transition-colors"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="hover:text-neon-yellow transition-colors"><i class="fab fa-twitch"></i></a>
+                <a href="#" class="hover:text-neon-yellow transition-colors"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="hover:text-neon-yellow transition-colors"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
