@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakiD</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome para os Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Configuração de cores personalizadas do Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neon-yellow': '#e2e61d',
+                        'neon-cyan': '#00f3ff',
+                        'dark-bg': '#0b0e14',
+                        'card-bg': '#131722',
+                        'card-border': '#232838',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-bg text-white min-h-screen font-sans antialiased selection:bg-neon-yellow selection:text-black">
+
+    <div class="max-w-5xl mx-auto px-4 py-8 md:py-12">
+        
+        <!-- HEADER -->
+        <header class="flex flex-col md:flex-row items-center gap-6 md:gap-8 mb-12 text-center md:text-left">
+            <div class="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 flex-shrink-0 drop-shadow-[0_0_15px_rgba(226,230,29,0.5)]">
+                <!-- Imagem do Logo indicada -->
+                <img src="MakiD-Icon.png" alt="Maki D Logo" class="w-full h-full object-contain">
+            </div>
+            <div>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide uppercase">
+                    MakiD
+                </h1>
+                <p class="text-gray-300 text-base sm:text-lg md:text-xl mt-2 max-w-2xl font-medium">
+                    É a minha homepage oficial de algumas postagens que eu faço em canais e redes sociais sobre jogos e novidades do canal, tudo num só lugar!
+                </p>
+            </div>
+        </header>
+
+       
+
+        <!-- REDES SOCIAIS -->
+        <h2 class="text-neon-yellow text-xl font-bold uppercase tracking-wider mb-6 text-center sm:text-left">Conexões & Mais</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
+            
+           
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/@MakiDExtreme/streams" target="_blank" class="bg-[#c4302b] rounded-xl p-5 flex flex-col justify-between gap-5 transition-all hover:-translate-y-1 group">
+                <div class="flex gap-4 items-start">
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" class="w-16">
+                        <br>
+                        <p class="text-xs text-red-100 opacity-90 mt-1 leading-relaxed">Canal de vídeos, shorts de gameplays e novidades do canal durante a semana!</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2.5 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors w-full mt-auto">Ver</div>
+            </a>
+
+
+
+              <!-- TikTok -->
+            <a href="https://tiktok.com/@makidextreme" target="_blank" class="bg-[#000000] rounded-xl p-5 flex flex-col justify-between gap-5 transition-all hover:-translate-y-1 group">
+                <div class="flex gap-4 items-start">
+                    <div>
+                        <img src="https://img.magnific.com/vetores-premium/logo-do-tik-tok_578229-290.jpg?semt=ais_hybrid&w=740&q=80" class="w-14">
+                        <br>
+                        <p class="text-xs text-black-100 opacity-90 mt-1 leading-relaxed">Clipes das gameplays!</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2.5 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors w-full mt-auto">Ver</div>
+            </a>
+    
+
+            <!-- Roblox -->
+            <a href="https://www.roblox.com/users/289692782/profile" target="_blank" class="bg-[#275DF2] rounded-xl p-5 flex flex-col justify-between gap-5 transition-all hover:-translate-y-1 group">
+                <div class="flex gap-4 items-start">
+                    <div>
+                        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Roblox_Corporation_2025_logo.svg/1280px-Roblox_Corporation_2025_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" class="w-16">
+                        <br>
+                        <p class="text-xs text-red-100 opacity-90 mt-1 leading-relaxed">Jogue e acompanhe o desenvolvimento de alguns jogos que tenho feito!</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2.5 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors w-full mt-auto">Jogar</div>
+            </a>
+
+
+                <!-- Scratch -->
+            <a href="https://scratch.mit.edu/users/maki__d/" target="_blank" class="bg-[#800080] rounded-xl p-5 flex flex-col justify-between gap-5 transition-all hover:-translate-y-1 group">
+                <div class="flex gap-4 items-start">
+                    <div>
+                        <img src="https://seeklogo.com/images/S/scratch-logo-B13B10E544-seeklogo.com.png" class="w-16">
+                        <br>
+                        <p class="text-xs text-red-100 opacity-90 mt-1 leading-relaxed">Alguns jogos de navegador!</p>
+                    </div>
+                </div>
+                <div class="bg-neon-yellow text-black text-center py-2.5 rounded-md font-bold text-sm uppercase tracking-wide group-hover:bg-white transition-colors w-full mt-auto">Ver</div>
+            </a>
+            
+
+         
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="border-t border-zinc-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left text-sm text-gray-400">
+            <p>&copy; <span id="year"></span> Copyright - Todos os direitos reservados.</p>
+            <p class="text-sm text-gray-400">Alguns aplicativos e jogos</p>
+
+            <div class="flex gap-6 text-xl">
+                <a href="https://github.com/MakiiiD" target="_blank" class="hover:text-neon-yellow transition-colors" aria-label="GitHub"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png" class="w-4"></a>
+               
+                <a href="https://discord.com/channels/1522700411218165798/1522700411893452928" target="_blank" class="hover:text-neon-yellow transition-colors" aria-label="Discord"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-color-icon.png" class="w-4"></a>   
+                
+                <a href="https://backloggd.com/u/MakiD/lists/" target="_blank" class="hover:text-neon-yellow transition-colors" aria-label="Backloggd"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBh3YDbLdPt1xArKR3RGRMW4p188fTjw1WUdgoAAtbR9mw__hSU0SBMixW&s=10" class="w-4"></a>          
+
+                <a href="https://www.roblox.com/users/289692782/profile" target="_blank" class="hover:text-neon-yellow transition-colors" aria-label="Roblox"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Roblox_Corporation_2025_logo.svg/3840px-Roblox_Corporation_2025_logo.svg.png" class="w-4"></a>   
+
+                <a href="https://www.xbox.com/pt-BR/play/user/MakiD4756" target="_blank" class="hover:text-neon-yellow transition-colors" aria-label="Xbox"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/250px-Xbox_one_logo.svg.png" class="w-4"></a>   
+
+                <a href="https://scratch.mit.edu/users/maki__d/" target="_blank" class="hover:text-neon-yellow transition-colors" aria-label="Scratch"><img src="https://static.wikia.nocookie.net/logopedia/images/b/b1/Scratch_S.svg/revision/latest?cb=20260727015555" class="w-3"></a>   
+                
+                <a href="steam://" target="_blank" class="hover:text-neon-yellow transition-colors" aria-label="Steam"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/3840px-Steam_icon_logo.svg.png" class="w-4"></a>   
+
+                <a href="minecraft://" class="hover:text-neon-yellow transition-colors" aria-label="Minecraft Windows"><img src="https://cdn.freebiesupply.com/logos/large/2x/minecraft-1-logo-svg-vector.svg" class="w-4"></a>   
+                
+                <a href="https://www.curseforge.com/minecraft/modpacks/rlcraft/install/4612979" target="_blank" class="hover:text-neon-yellow transition-colors" aria-label="CurseForge Minecraft Java"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/15a10966-3031-4c71-9c5d-0b2aa31b1af2/dfvg2h8-3bf1d4c4-8fef-4606-b6f4-d2fbf4de86f5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8xNWExMDk2Ni0zMDMxLTRjNzEtOWM1ZC0wYjJhYTMxYjFhZjIvZGZ2ZzJoOC0zYmYxZDRjNC04ZmVmLTQ2MDYtYjZmNC1kMmZiZjRkZTg2ZjUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GsvYH2_NiTM2fFPmJGkwOdb8Lia__nOhkRdiL4hxN9Q" class="w-4"></a>   
+                
+                
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        (function setYear() {
+            var y = document.getElementById('year');
+            if (y) y.textContent = new Date().getFullYear();
+        })();
+    </script>
+
+</body>
+</html>
